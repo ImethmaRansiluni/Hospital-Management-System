@@ -81,10 +81,10 @@
             </p>
 </div>
     
-    <div class="container3" style="background-color:rgb(169, 206, 243);">
+     <div class="container3" style="background-color:rgb(169, 206, 243);">
     <div class="left">
-      <h2>Why Patients Choose Us</h2>
-      <p>At Care Compass Hospital, we are dedicated to providing world-class healthcare services with compassion and precision. 
+      <h2 style="color: blue;">Why Patients Choose Us</h2>
+      <p style="color: black;">At Care Compass Hospital, we are dedicated to providing world-class healthcare services with compassion and precision. 
          Our highly skilled team of doctors and state-of-the-art facilities ensure that every patient receives the care they deserve. 
          Choose Care Compass for unparalleled expertise and unwavering commitment to your well-being.</p>
     </div>
