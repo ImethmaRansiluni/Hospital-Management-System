@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: ghostwhite;
+}
+
+/* General Container Styling */
+.container {
+    margin-top: 5cm;
+    margin-bottom: 3cm;
+    width: 40%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 12px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Heading Styling */
+.container h2 {
+    text-align: center;
+    color: #333;
+   margin-top: 5px;
+}
+
+/* List View Styling */
+.patient-details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.patient-details li {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 50px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.patient-details li:last-child {
+    border-bottom: none;
+}
+
+.patient-details li strong {
+    color: #555;
+}
+
+/* Add Hover Effect */
+.patient-details li:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .patient-details li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .patient-details li strong {
+        margin-bottom: 5px;
+    }
+}
+
+/* Button Container */
+.button-container {
+    text-align: center;
+   
+}
+
+/* Buttons */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   margin: 0.7cm 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+

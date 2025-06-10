@@ -1,0 +1,52 @@
+  /* General Styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fb;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Ensures content stacks vertically */
+    align-items: center;
+    min-height: 100vh; /* Allows the page to extend if needed */
+}
+
+/* Appointment Container */
+.appointment-container {
+    background: aliceblue;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    width: 40%;
+    text-align: center;
+    margin-top: 3.5cm; 
+    margin-bottom: 1cm;/* Adds spacing from the top */
+}
+
+h2{
+    margin-bottom: 0.5cm;
+    font-size: 30px;
+}
+/* Price */
+h3 {
+    color: #007bff;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Blue Button */
+.button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    color: white;
+    background-color: #0056b3;
+}
+

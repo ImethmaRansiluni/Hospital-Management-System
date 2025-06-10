@@ -1,0 +1,57 @@
+footer {
+  background-color: #183c61;
+  padding: 20px;
+  color: white;
+  font-size: 16px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left, .footer-middle, .footer-right {
+  flex: 1;
+  
+}
+
+.footer-logo {
+  height: 4cm;
+}
+
+.footer-middle ul {
+  list-style-type: none;
+}
+
+.footer-right {
+  text-align: center;
+}
+
+.right-logo {
+  max-width: 120px;
+  display: block;
+  margin: 10px auto;
+}
+
+.branches-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.branch {
+  text-align: center;
+  flex: 1;
+}
+
+.branch-logo {
+  max-width: 70px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.authentication {
+  text-align: center;
+  margin-top: 20px;
+}
+

@@ -1,0 +1,78 @@
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.quote-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkslateblue;
+    padding: 2rem;
+    border-radius: 40px;
+    border-color: black 2px;
+    box-shadow: 0 12px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quote-container .quote-text {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: white;
+}
+
+.quote-container .quote-author {
+    text-align: right;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.about-section img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-custom {
+    background-color: #0d6efd;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.values-card {
+    transition: transform 0.3s;
+    background: #fff;
+    border: 1px solid #eaeaea;
+}
+
+.values-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+    font-size: 2rem;
+    color: #0d6efd;
+}
+
+.bg-pattern {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.section-light {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Container for branch content */
+.Container1Branch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+/* First image (slides in from left) */
+.animated-picture1 img {
+    width: 600px; /* Adjust as needed */
+    height: auto;
+    border-radius: 10px;
+    transform: translateX(-100%);
+    animation: slideIn 1.5s ease-in-out forwards;
+}
+
+/* Other images remain static */
+.ExploreImage img {
+    width: 550px; /* Adjust as needed */
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Slide-in animation */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Paragraph styling */
+.Paragraph1Colombo {
+    max-width: 700px;
+    margin-left: 1cm;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* List styles */
+.ExploreList {
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.ExploreList li::before {
+    content: "✔ ";
+    color: #116530;
+    font-weight: bold;
+}

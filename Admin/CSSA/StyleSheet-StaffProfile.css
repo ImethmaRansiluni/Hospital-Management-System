@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(215, 236, 254);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin-top: 4cm;
+    margin-bottom: 1cm;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 12px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    border: 2px solid black; 
+}
+
+.staff-info {
+    margin-top: 0.5cm;
+    margin-left: 1cm;
+    width: 50%;
+}
+
+.staff-info h3 {
+    color: #333;
+}
+
+.staff-info p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.staff-info label {
+    font-weight: bold;
+}

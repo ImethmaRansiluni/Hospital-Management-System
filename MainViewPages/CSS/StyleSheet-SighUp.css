@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.Background1 {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container6 {
+  margin-left: 1cm;
+  margin-top: 3.5cm;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 60%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 40px;
+  background-color: aliceblue; /* Outer container background */
+  border: 1px solid black; /* Outer container border */
+}
+
+h2 {
+  text-align: center;
+  width: 100%;
+}
+
+.align {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  width: 90%; /* Ensure form does not stretch too much */
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-section {
+  width: 48%; /* Ensures equal width for left and right sections */
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.checkbox-container input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+}

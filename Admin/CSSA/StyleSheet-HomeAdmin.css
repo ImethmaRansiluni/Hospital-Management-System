@@ -1,0 +1,90 @@
+
+.admin-dashboard {
+    width: 100%;
+    padding: 30px;
+    background: #f0f8ff;
+}
+
+.admin-dashboard h1 {
+    text-align: center;
+    color: #004080; 
+    background: #d9e6f2; 
+    padding: 15px;
+    border-radius: 8px;
+}
+
+
+.admin-dashboard .dashboard-overview,
+.admin-dashboard .system-management,
+.admin-dashboard .recent-activities,
+.admin-dashboard .system-notifications {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 64, 128, 0.2);
+    border-left: 5px solid #004080;
+}
+
+.admin-dashboard h2 {
+    color: #004080;
+    border-bottom: 2px solid #004080;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Text and List Styling */
+.admin-dashboard p {
+    color: #003366; /* Deep Blue */
+    line-height: 1.6;
+}
+
+.admin-dashboard ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.admin-dashboard ul li {
+    background: #e6f0ff; /* Light Blue */
+    padding: 12px;
+    margin-bottom: 10px;
+    border-left: 5px solid #004080; /* Blue Accent */
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 64, 128, 0.1);
+}
+
+/* Image Placeholder */
+.admin-dashboard .image-placeholder {
+    width: auto;
+    height: 500px;
+    background: #b3d1ff; /* Soft Blue */
+    color: #004080;
+    text-align: center;
+    line-height: 200px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .admin-dashboard {
+        padding: 20px;
+    }
+
+    .admin-dashboard h1 {
+        font-size: 22px;
+        padding: 10px;
+    }
+
+    .admin-dashboard h2 {
+        font-size: 18px;
+    }
+
+    .admin-dashboard .image-placeholder {
+        height: 150px;
+        line-height: 150px;
+    }
+}
