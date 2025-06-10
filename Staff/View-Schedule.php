@@ -49,7 +49,7 @@ if (mysqli_num_rows($schedule_result) > 0) {
     <style>
     .container {
         padding: 20px;
-        width: 45%;
+        width: 50%;
     }
 
     .staff-schedule {

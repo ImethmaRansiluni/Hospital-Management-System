@@ -114,7 +114,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <title>Select Doctor & Schedule</title>
     <link rel="StyleSheet" href="CSS/StyleSheet-appointment2.css">
 </head>
-<body style="background-image: url(../Images/image.png);  margin: 0;">
+<body class="Background1" style="background-image: url(../Images/admin2.jpg); margin: 0;" >
     <div class="container">
 
     <div class="doctor-info">

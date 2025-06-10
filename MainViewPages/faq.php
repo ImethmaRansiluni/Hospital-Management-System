@@ -81,7 +81,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         }
     </style>
 </head>
-<body>
+<body style="background-image: url(../Images/admin2.jpg);  margin: 0;">
     <div class="container">
         <div class="feedback-list">
             <h2>Previous Feedback And Questions</h2>

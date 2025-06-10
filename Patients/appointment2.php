@@ -202,6 +202,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </form>
         </div>
     </div>
+
+     <div style="width: auto; margin: -1.4cm; margin-top: 1cm;">
+    <?php include 'footer1.php'?>
+    </div>
 </body>
 </html>
-<?php include 'footer1.php'?>
+

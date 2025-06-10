@@ -61,6 +61,8 @@ $result_departments = mysqli_query($conn, "SELECT DISTINCT staff_department FROM
         </form>
     </div>
 
+    <div style="width: auto; margin: -1.4cm; margin-top: 1cm;">
     <?php include 'footer1.php'?>
+    </div>
 </body>
 </html>
